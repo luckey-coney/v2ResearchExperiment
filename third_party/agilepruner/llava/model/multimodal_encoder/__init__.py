@@ -1,0 +1,1 @@
+"""Upstream CLIP vision encoder."""

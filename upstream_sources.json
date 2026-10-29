@@ -1,0 +1,160 @@
+{
+  "checked_date": "2026-10-29",
+  "scope": "source-only acquisition and static implementation; no project execution/dependency/model/data download",
+  "sources": [
+    {
+      "repository": "cvsp-lab/AgilePruner",
+      "commit": "6829283ded10bdec58361512a32676c71bbd17d3",
+      "path": "llava/model/llava_arch.py",
+      "vendored_path": "third_party/agilepruner/llava/model/llava_arch.py",
+      "git_blob_sha": "0c42e844e3b7a20d3b4609cbcc1cf18151e1180d",
+      "url": "https://github.com/cvsp-lab/AgilePruner/blob/6829283ded10bdec58361512a32676c71bbd17d3/llava/model/llava_arch.py",
+      "acquisition": "existing verified local source snapshot",
+      "modification": "none"
+    },
+    {
+      "repository": "cvsp-lab/AgilePruner",
+      "commit": "6829283ded10bdec58361512a32676c71bbd17d3",
+      "path": "llava/model/language_model/llava_llama.py",
+      "vendored_path": "third_party/agilepruner/llava/model/language_model/llava_llama.py",
+      "git_blob_sha": "2388215edf9a83aa99f7c0a61b7382c3d7c4ce83",
+      "url": "https://github.com/cvsp-lab/AgilePruner/blob/6829283ded10bdec58361512a32676c71bbd17d3/llava/model/language_model/llava_llama.py",
+      "acquisition": "existing verified local source snapshot",
+      "modification": "none"
+    },
+    {
+      "repository": "cvsp-lab/AgilePruner",
+      "commit": "6829283ded10bdec58361512a32676c71bbd17d3",
+      "path": "llava/model/multimodal_encoder/clip_encoder.py",
+      "vendored_path": "third_party/agilepruner/llava/model/multimodal_encoder/clip_encoder.py",
+      "git_blob_sha": "c4f1bb1ea6d39ae0ff0508c98a14e50050974296",
+      "url": "https://github.com/cvsp-lab/AgilePruner/blob/6829283ded10bdec58361512a32676c71bbd17d3/llava/model/multimodal_encoder/clip_encoder.py",
+      "acquisition": "existing verified local source snapshot",
+      "modification": "none"
+    },
+    {
+      "repository": "cvsp-lab/AgilePruner",
+      "commit": "6829283ded10bdec58361512a32676c71bbd17d3",
+      "path": "llava/constants.py",
+      "vendored_path": "third_party/agilepruner/llava/constants.py",
+      "git_blob_sha": "374be090510b302de9882d880c755787a8eafe11",
+      "url": "https://github.com/cvsp-lab/AgilePruner/blob/6829283ded10bdec58361512a32676c71bbd17d3/llava/constants.py",
+      "acquisition": "GitHub connector at explicit fixed commit",
+      "modification": "none"
+    },
+    {
+      "repository": "cvsp-lab/AgilePruner",
+      "commit": "6829283ded10bdec58361512a32676c71bbd17d3",
+      "path": "llava/conversation.py",
+      "vendored_path": "third_party/agilepruner/llava/conversation.py",
+      "git_blob_sha": "00c56867dd1fd88094df9556f3d1c57e71a7ada8",
+      "url": "https://github.com/cvsp-lab/AgilePruner/blob/6829283ded10bdec58361512a32676c71bbd17d3/llava/conversation.py",
+      "acquisition": "GitHub connector at explicit fixed commit",
+      "modification": "none"
+    },
+    {
+      "repository": "cvsp-lab/AgilePruner",
+      "commit": "6829283ded10bdec58361512a32676c71bbd17d3",
+      "path": "llava/mm_utils.py",
+      "vendored_path": "third_party/agilepruner/llava/mm_utils.py",
+      "git_blob_sha": "69ebf52481527bedd1b66ce5e171454f8fff3eeb",
+      "url": "https://github.com/cvsp-lab/AgilePruner/blob/6829283ded10bdec58361512a32676c71bbd17d3/llava/mm_utils.py",
+      "acquisition": "GitHub connector at explicit fixed commit",
+      "modification": "none"
+    },
+    {
+      "repository": "cvsp-lab/AgilePruner",
+      "commit": "6829283ded10bdec58361512a32676c71bbd17d3",
+      "path": "llava/model/multimodal_encoder/builder.py",
+      "vendored_path": "third_party/agilepruner/llava/model/multimodal_encoder/builder.py",
+      "git_blob_sha": "29f63a26d5a4485a64bf235391d0f7593a96f3b6",
+      "url": "https://github.com/cvsp-lab/AgilePruner/blob/6829283ded10bdec58361512a32676c71bbd17d3/llava/model/multimodal_encoder/builder.py",
+      "acquisition": "GitHub connector at explicit fixed commit",
+      "modification": "none"
+    },
+    {
+      "repository": "cvsp-lab/AgilePruner",
+      "commit": "6829283ded10bdec58361512a32676c71bbd17d3",
+      "path": "llava/model/multimodal_projector/builder.py",
+      "vendored_path": "third_party/agilepruner/llava/model/multimodal_projector/builder.py",
+      "git_blob_sha": "31cd4f48e6055cd6d00a162af30b1c8139e26b57",
+      "url": "https://github.com/cvsp-lab/AgilePruner/blob/6829283ded10bdec58361512a32676c71bbd17d3/llava/model/multimodal_projector/builder.py",
+      "acquisition": "GitHub connector at explicit fixed commit",
+      "modification": "none"
+    },
+    {
+      "repository": "huggingface/huggingface_hub",
+      "commit": "2cff405655a58e91e68d2486a3d699e25fadc65b",
+      "tag": "v0.20.3",
+      "path": "src/huggingface_hub/utils/sha.py",
+      "url": "https://github.com/huggingface/huggingface_hub/blob/2cff405655a58e91e68d2486a3d699e25fadc65b/src/huggingface_hub/utils/sha.py",
+      "acquisition": "official GitHub source read; external dependency reused, not copied",
+      "modification": "none; function imported from existing huggingface_hub dependency",
+      "local_usage": "v2_pruning/pairing.py imports sha_fileobj and compares its hexadecimal SHA256 with pinned publisher metadata",
+      "license": "Apache-2.0"
+    }
+  ],
+  "derived": [
+    {
+      "local_files": [
+        "v2_pruning/coverage.py",
+        "v2_pruning/selector.py"
+      ],
+      "repository": "teddytennant/jax-coverpruner",
+      "commit": "e5ae93963fb164dd9bcd45de688eaba97be3d5d5",
+      "upstream_files": [
+        "src/coverpruner/coverage.py",
+        "src/coverpruner/select.py"
+      ],
+      "license": "MIT",
+      "modification": "PyTorch port; numerical guards; V2 region-local coverage and capped joint progress; dynamic stopping; full fallback",
+      "official_paper_implementation": false
+    },
+    {
+      "local_files": [
+        "v2_pruning/llava_adapter.py"
+      ],
+      "repository": "cvsp-lab/AgilePruner",
+      "commit": "6829283ded10bdec58361512a32676c71bbd17d3",
+      "upstream_files": [
+        "llava/model/builder.py",
+        "llava/model/multimodal_encoder/clip_encoder.py",
+        "llava/eval/model_vqa_loader.py"
+      ],
+      "license": "Apache-2.0",
+      "modification": "Offline loading with integrity info; full original visual features; question-span/index mapping; real gather before native generation"
+    },
+    {
+      "local_files": [
+        "third_party/agilepruner/llava/model/__init__.py"
+      ],
+      "repository": "cvsp-lab/AgilePruner",
+      "commit": "6829283ded10bdec58361512a32676c71bbd17d3",
+      "upstream_files": [
+        "llava/model/__init__.py"
+      ],
+      "license": "Apache-2.0",
+      "modification": "Import only supported Llama implementation"
+    },
+    {
+      "local_files": [
+        "v2_pruning/probe.py"
+      ],
+      "repository": "huggingface/transformers",
+      "commit": "345b9b1a6a308a1fa6559251eb33ead2211240ac",
+      "tag": "v4.37.2",
+      "upstream_files": [
+        "src/transformers/models/llama/modeling_llama.py"
+      ],
+      "git_blob_sha": "bd2269ce1606b6d1aff3b8771022703653318993",
+      "license": "Apache-2.0",
+      "modification": "Native helpers imported from installed package; shared first-layer Q/K only with query chunking; legal full-key softmax"
+    }
+  ],
+  "tests_executed": false,
+  "project_imported": false,
+  "compiled": false,
+  "dependencies_installed": false,
+  "models_downloaded": false,
+  "data_downloaded": false
+}

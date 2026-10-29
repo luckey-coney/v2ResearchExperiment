@@ -1,0 +1,143 @@
+{
+  "schema_version": 1,
+  "checked_date": "2026-10-29",
+  "trust_scope": "Pinned publisher files and model-declared vision repository; not proof of historical training vision revision or task quality",
+  "profiles": [
+    {
+      "id": "llava-v1.5-7b",
+      "relationship": {
+        "model_vision_tower": "openai/clip-vit-large-patch14-336",
+        "source_url": "https://huggingface.co/liuhaotian/llava-v1.5-7b/resolve/4481d270cc22fd5c4d1bb5df129622006ccd9234/config.json",
+        "training_vision_revision": "not declared by model config"
+      },
+      "model": {
+        "repo_id": "liuhaotian/llava-v1.5-7b",
+        "revision": "4481d270cc22fd5c4d1bb5df129622006ccd9234",
+        "metadata_url": "https://huggingface.co/api/models/liuhaotian/llava-v1.5-7b/revision/4481d270cc22fd5c4d1bb5df129622006ccd9234?blobs=true",
+        "files": {
+          "config.json": {
+            "sha256": "f112de882e31171a105f0d3f69d9e6e8700a40149f0944f4b507d3a41789e492",
+            "size": 1161
+          },
+          "generation_config.json": {
+            "sha256": "e453057ea6a89d902d7326b3addbe312a7a6c8faabf777a521c9f2d563f79b8d",
+            "size": 124
+          },
+          "pytorch_model-00001-of-00002.bin": {
+            "sha256": "492fdfa63cf314097d99da81a3586d54a97adc1471a0ae0535f5caa269b86314",
+            "size": 9976634558
+          },
+          "pytorch_model-00002-of-00002.bin": {
+            "sha256": "c0eb94eb3fa578a4c63567f2eca6b0acf6a44a891c257aca0df88ffa891de72e",
+            "size": 3542276251
+          },
+          "pytorch_model.bin.index.json": {
+            "sha256": "487578d3f7ec21c057596d0f9dc71084acc349eb8f13bd8b5af86c26460f2d31",
+            "size": 27068
+          },
+          "special_tokens_map.json": {
+            "sha256": "719833ff26ac897a3ec8ed946028a135de2a351470af59b4008744ab1f0ee9b7",
+            "size": 438
+          },
+          "tokenizer.model": {
+            "sha256": "9e556afd44213b6bd1be2b850ebbbd98f5481437a8021afaf58ee7fb1818d347",
+            "size": 499723
+          },
+          "tokenizer_config.json": {
+            "sha256": "cf01145c6de57f061991ff871e85d0402c38481f968daea8874c431cd0c7740f",
+            "size": 749
+          }
+        }
+      },
+      "vision": {
+        "repo_id": "openai/clip-vit-large-patch14-336",
+        "revision": "ce19dc912ca5cd21c8a653c79e251e808ccabcd1",
+        "metadata_url": "https://huggingface.co/api/models/openai/clip-vit-large-patch14-336/revision/ce19dc912ca5cd21c8a653c79e251e808ccabcd1?blobs=true",
+        "files": {
+          "config.json": {
+            "sha256": "51b1c14aabcdf639c4a0370eeda1010b773bbe1df78319c7d0f5882c22ac0ac0",
+            "size": 4757
+          },
+          "preprocessor_config.json": {
+            "sha256": "d253881f65322dc546df59cf925a408e5538b8ecb5a1b496cdd36af9992686d4",
+            "size": 316
+          },
+          "pytorch_model.bin": {
+            "sha256": "c6032c2e0caae3dc2d4fba35535fa6307dbb49df59c7e182b1bc4b3329b81801",
+            "size": 1711974081
+          }
+        }
+      }
+    },
+    {
+      "id": "llava-v1.5-13b",
+      "relationship": {
+        "model_vision_tower": "openai/clip-vit-large-patch14-336",
+        "source_url": "https://huggingface.co/liuhaotian/llava-v1.5-13b/resolve/901a44b9113dea67b976e71f58d4e372cf9de81a/config.json",
+        "training_vision_revision": "not declared by model config"
+      },
+      "model": {
+        "repo_id": "liuhaotian/llava-v1.5-13b",
+        "revision": "901a44b9113dea67b976e71f58d4e372cf9de81a",
+        "metadata_url": "https://huggingface.co/api/models/liuhaotian/llava-v1.5-13b/revision/901a44b9113dea67b976e71f58d4e372cf9de81a?blobs=true",
+        "files": {
+          "config.json": {
+            "sha256": "39ca696904c95fec1d43d673f34e7d056a587ae7df036669c84a09deda1de842",
+            "size": 1162
+          },
+          "generation_config.json": {
+            "sha256": "832e765b6975c3dad45306019b33b6cceeeaa4a36ec7e1007a6f90ce4c072a40",
+            "size": 154
+          },
+          "pytorch_model-00001-of-00003.bin": {
+            "sha256": "c64e0b62f8b154e7c8ceb1f95b39ae645d71070b6d00d76bff7b40f083c2d627",
+            "size": 9948728430
+          },
+          "pytorch_model-00002-of-00003.bin": {
+            "sha256": "13546a4b6616206edf83646d1caaf073a2d008dde4aa4b295a1ef4aef976b086",
+            "size": 9904165024
+          },
+          "pytorch_model-00003-of-00003.bin": {
+            "sha256": "0c5e0caccab8b461962252a0b75c8e80084d5e48f292ab65ff1a78c03a973fcd",
+            "size": 6241920065
+          },
+          "pytorch_model.bin.index.json": {
+            "sha256": "b751a2dd09a404d929da1d052ce97e16b981607baee8f9df13600eb639f69366",
+            "size": 33724
+          },
+          "special_tokens_map.json": {
+            "sha256": "719833ff26ac897a3ec8ed946028a135de2a351470af59b4008744ab1f0ee9b7",
+            "size": 438
+          },
+          "tokenizer.model": {
+            "sha256": "9e556afd44213b6bd1be2b850ebbbd98f5481437a8021afaf58ee7fb1818d347",
+            "size": 499723
+          },
+          "tokenizer_config.json": {
+            "sha256": "cf01145c6de57f061991ff871e85d0402c38481f968daea8874c431cd0c7740f",
+            "size": 749
+          }
+        }
+      },
+      "vision": {
+        "repo_id": "openai/clip-vit-large-patch14-336",
+        "revision": "ce19dc912ca5cd21c8a653c79e251e808ccabcd1",
+        "metadata_url": "https://huggingface.co/api/models/openai/clip-vit-large-patch14-336/revision/ce19dc912ca5cd21c8a653c79e251e808ccabcd1?blobs=true",
+        "files": {
+          "config.json": {
+            "sha256": "51b1c14aabcdf639c4a0370eeda1010b773bbe1df78319c7d0f5882c22ac0ac0",
+            "size": 4757
+          },
+          "preprocessor_config.json": {
+            "sha256": "d253881f65322dc546df59cf925a408e5538b8ecb5a1b496cdd36af9992686d4",
+            "size": 316
+          },
+          "pytorch_model.bin": {
+            "sha256": "c6032c2e0caae3dc2d4fba35535fa6307dbb49df59c7e182b1bc4b3329b81801",
+            "size": 1711974081
+          }
+        }
+      }
+    }
+  ]
+}

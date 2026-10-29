@@ -1,0 +1,15 @@
+{
+  "seed_threshold": 0.8,
+  "grow_threshold": 0.5,
+  "tau": 0.3,
+  "alpha_all": 0.75,
+  "alpha_local": 0.9,
+  "signal_epsilon": 1e-8,
+  "denominator_epsilon": 1e-8,
+  "norm_epsilon": 1e-12,
+  "gain_epsilon": 0.0,
+  "coverage_tolerance": 1e-6,
+  "gain_chunk_size": 64,
+  "query_chunk_size": 32,
+  "max_tokens": null
+}

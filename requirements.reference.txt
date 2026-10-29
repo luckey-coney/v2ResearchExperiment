@@ -1,0 +1,13 @@
+# Reference only. No dependencies were installed or downloaded during implementation.
+# Core versions follow the pinned AgilePruner source; CUDA wheel choice is environment-specific.
+torch==2.1.2
+torchvision==0.16.2
+transformers==4.37.2
+tokenizers==0.15.1
+huggingface-hub==0.20.3
+accelerate==0.21.0
+sentencepiece==0.1.99
+numpy==1.26.4
+Pillow>=9.5.0
+# Test collection only; not imported by the inference entry point.
+pytest>=7.4,<9
